@@ -1,5 +1,10 @@
-public class HellpApp {
+import java.util.Scanner;
+
+public class HelloApp {
+    static Scanner sc = new Scanner(System.in); 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Enter Name: ");
+        String name = sc.nextLine();
+        System.out.println("Hello, " + name + "!");
     }
-}
+} 
